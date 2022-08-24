@@ -25,6 +25,7 @@ const Detail = (props) => {
         }}
         ></button>
           <Text>
+           <p>id:{todo_list[todo_index].id+1}</p>
             <h2 className="card-title">{todo_list[todo_index].title}</h2>
             <p className="card-text">{todo_list[todo_index].body}</p>
           </Text>
